@@ -56,7 +56,7 @@ ul {
 .container {
     margin:75px auto;
     width:900px;
-    min-height:1200px;
+    min-height:150%;
     background: url("img/contentbg.jpg")no-repeat 54.5% center;
     background-size:cover ;
 }
