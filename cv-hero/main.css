@@ -1,0 +1,104 @@
+html, body {
+    margin:0;
+    padding:0;
+    width:100%;
+    height: 100%;
+}
+body {
+    background: url("img/bg.jpg")no-repeat center center fixed;
+    background-size: cover;
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+    text-decoration:underline;
+    opacity: .9;
+}
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+
+}
+h1, h2 {
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(255,162,7,0.5);;
+    color: rgba(255,162,7,0.9);
+
+}
+h3 {
+    font-size: 50px;
+    margin: 30px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(255,162,7,0.9);
+}
+ul {
+    list-style-type: none;
+}
+.logo {
+    position: absolute;
+    left: 50%;
+    top: -165px;
+    width: 800px;
+    height:310px;
+    margin:0 -450px;
+    background: url("img/theflashlogo.png");
+    transform:rotate(11deg)
+}
+.container, .bloc {
+    border-radius: 10px;
+    box-shadow: 0 0 20px black ;
+    position: relative;
+}
+.bloc {
+    background: rgba(0,0,0,0.5);
+    margin: 0 0 0 50px;
+    float: left;
+}
+.container {
+    margin:75px auto;
+    width:900px;
+    min-height:1200px;
+    background: url("img/contentbg.jpg")no-repeat 54.5% center;
+    background-size:cover ;
+}
+.intro {
+    top:100px;
+    text-shadow: 0 0 5px rgba(255,162,7,0.5);
+    color: rgba(255,162,7,0.9);
+    text-align: justify ;
+    font-size: large;
+}
+.intro, .contact {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 50px;
+    width: 760px;
+    min-height: 150px;
+    padding:0 20px;
+    text-align: justify;
+}
+.contact {
+    top:200px;
+    text-align: center;
+    padding: 30px 20px 20px 20px;
+    font-size: 30px;
+    color: rgba(255,162,7,0.9);
+    text-shadow: 0 0 5px rgba(255,162,7,0.5);
+}
+fieldset {
+    border: none;
+}
+input, textarea {
+    min-width: 95% !important;
+}
+textarea {
+    min-height: 130px;
+}
+.spaceholder {opacity: 0}
+.competences, .experiences, .spaceholder {
+    background-color: rgba(0,0,0,.5);
+    top:150px;
+    width: 233px;
+    height:300px;
+    box-shadow:0 0 20px black;
+    text-align: center;
+    padding:70px 0 0 0;
+}
